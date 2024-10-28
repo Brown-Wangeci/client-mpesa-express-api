@@ -1,0 +1,50 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color);
+    border-radius: 5px;
+}
+.title{
+    color: var(--color);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.inputBlock{
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color);
+    background-color: transparent;
+    color: white;
+}
+.input:focus{
+    outline: none;
+}
+.input::placeholder{
+    color: #ccc;
+}
+.label{
+    padding: 10px;
+    background-color: var(--color);
+    color: #282c34;
+    font-weight: bold;
+}
+.fieldset{
+    border: none;
+    border-top: 1px solid var(--color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 25px;
+}
